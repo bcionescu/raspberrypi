@@ -6,7 +6,7 @@ I love backups. Whenever I create a project, I can make copies of it and store s
 
 There are basic things you can do, such as using a cloud service and maintaining local backups; however, it would be preferable to have backups on a remote device that I control and manage.
 
-I've always wanted to use a Raspberry Pi for such a purpose. In terms of what technology to use, there are multiple choices. For this current project, I opted for Syncthing, which enables data synchronization across multiple devices without requiring a static IP.
+I've always wanted to use a Raspberry Pi for such a purpose. In terms of what technology to use, there are multiple choices. For this current project, I opted for [Syncthing](https://syncthing.net/), which enables data synchronization across multiple devices without requiring a static IP.
 
 Each device has a unique ID, and Syncthing's relay system tracks IP changes, ensuring that devices stay connected and that your data remains synced.
 
