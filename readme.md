@@ -14,7 +14,7 @@ Each device has a unique ID, and Syncthing's relay system tracks IP changes, ens
 
 In terms of OS, I wanted something as lightweight as possible, as I will be running it on my Raspberry Pi 5. In reality, I'm underusing the hardware. Here is what `htop` looked like during a sync.
 
-![htop during sync](htop-during-sync.png)
+![htop during sync](/images/htop-during-sync.png)
 
 First, as I am on macOS, I installed the Raspberry Pi Imager via `brew` with the following command:
 
