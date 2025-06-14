@@ -182,9 +182,7 @@ sudo cryptsetup close borg
 
 ## Syncthing
 
-I went back to the main machine instance from which files are shared. I went ahead and shared the directory from my main machine, accepted it on the Raspberry Pi, and added the path.
-
-Since I'm saving it to my `borg` mount, my path was simply `/mnt/borg`.
+I went ahead and shared the directory from my main machine, accepted it on the Raspberry Pi, and added the path. Since I'm saving it to my `borg` mount, my path was simply `/mnt/borg`.
 
 ![syncthing mount path](/images/select_location.png)
 
