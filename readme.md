@@ -143,7 +143,7 @@ sudo cryptsetup open /dev/nvme0n1 borg
 
 This created `/dev/mapper/borg`. You don't have to call it `borg`, it's just what I called it.
 
-Next up, I create a file system.
+Next up, I created a file system.
 
 ```bash
 sudo mkfs.ext4 /dev/mapper/borg
